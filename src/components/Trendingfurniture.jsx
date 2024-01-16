@@ -48,7 +48,7 @@ const Trendingfurniture = () => {
     <div className="sm:mx-3" key={ProductData.id}>
       <div className="max-w-[295px] max-h-[338px] w-full h-full pb-[27px]  bg-white pl-[17px] pt-[15px] pr-[12px] shadow-[2px_7px_28px_0px_#0000000D] mx-3">
         <img src={ProductData.ProductImg} alt="img1" className="mb-[13px]" />
-        <div className="flex justify-between items-center" >
+        <div className="flex justify-between items-center">
           <p className=" font-poppins text-xl leading-normal font-medium text-nowrap ">
             {ProductData.Product}
           </p>
@@ -134,11 +134,13 @@ const Trendingfurniture = () => {
     ],
   };
   return (
-    
     <div className=" bg-[#f7f7f8] max-lg:max-w-[1320px] max-lg:mx-auto max-lg:px-3 pt-7 md:pt-9 lg:pt-[70px] min-[1280px]:mt-[300px] pb-5 sm:pb-7 md:pb-12 lg:pb-[98px] relative overflow-x-clip">
       <div className="max-w-[741px] max-h-[417px] h-full max-xl:hidden bg-gradient-to-t from-gray-300 to-gray-800 w-full absolute right-0 top-[-42%] "></div>
       <div className="flex flex-wrap flex-row -mx-3">
-        <div className="w-5/12 max-lg:w-full px-3 flex justify-center" data-aos="fade-right">
+        <div
+          className="w-5/12 max-lg:w-full px-3 flex justify-center"
+        
+        >
           <div>
             <div className="sm:flex items-center sm:gap-[9px]">
               <div className="max-sm:hidden w-[16%] border border-black border-solid "></div>
@@ -191,7 +193,7 @@ const Trendingfurniture = () => {
             </div>
           </div>
         </div>
-        <div className="w-7/12 mt-0 max-lg:mt-[50px] max-lg:w-full " data-aos="fade-left">
+        <div className="w-7/12 mt-0 max-lg:mt-[50px] max-lg:w-full ">
           <Slider ref={btn} {...settings} className=" right-0">
             {card}
           </Slider>

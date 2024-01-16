@@ -7,17 +7,8 @@ import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
 import Back from "./components/Back";
 import Preloader from "./components/Preloader";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect, useState } from "react";
 function App() {
-  useEffect(() => {
-    AOS.init({
-      once: true,
-      duration: 1500,
-      disable: "mobile",
-    });
-  });
+
   return (
     <>
       <Header />

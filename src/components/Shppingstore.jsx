@@ -22,13 +22,13 @@ const Shppingstore = () => {
  <div className=' mx-auto container  max-w-[1320px] mt-[80px] sm:mt-[135px] px-3 overflow-hidden'>
  <div className="flex items-center gap-[7px]" >
         <div className="w-[95px] h-[0px] border border-black" ></div>
-            <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine'  data-aos="fade-in-top">Shopping Store</p>
+            <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine' >Shopping Store</p>
             </div>
-            <div className='flex w-full flex-col gap-4 sm:flex-row  sm:justify-between items-start sm:items-center mt-4'  data-aos="fade-in-top">
+            <div className='flex w-full flex-col gap-4 sm:flex-row  sm:justify-between items-start sm:items-center mt-4' >
                 <h2 className='text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] '>Our Products</h2>
                 <Common text="VIEW ALL PRODUCT" />
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full lg:gap-5 xl:gap-[27px] my-8 sm:my-10 md:my-16 lg:my-[90px]'  data-aos="fade-left">
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full lg:gap-5 xl:gap-[27px] my-8 sm:my-10 md:my-16 lg:my-[90px]' >
                 {products.map((items, index) => (
                     <div key={index} className='w-full bg-white duration-300 shadow-[0_0_0_0_rgba(0,0,0,0.12)] hover:shadow-[6px_13px_38px_0_rgba(0,0,0,0.12)] mb-4'>
                         <div className='px-[23px] py-[18px]'>

@@ -59,7 +59,7 @@ const Latestdeal = () => {
   return (
     <div>
       <div className="max-w-[1320px]  px-3 mx-auto py-[50px] ">
-        <div className="flex flex-col md:flex-row items-center  pt-[30px]  gap-2" data-aos="fade-in-top">
+        <div className="flex flex-col md:flex-row items-center  pt-[30px]  gap-2" >
           <span className="w-[95px] h-[1px] bg-black"></span>
           <p className="text-xl font-ff-pop font-normal not-italic leading-normal text-[#BD7D41]">
             Shopping Store
@@ -69,7 +69,7 @@ const Latestdeal = () => {
           Latest Deal{" "}
         </p>
         <Slider {...settings}>
-          <div data-aos="fade-right">
+          <div >
             <div className=" px-[23px] py-[18px]  bg-[#fff] shadow-[0_0_0_0_rgba(0,0,0,0.12)] hover:shadow-[6px_13px_38px_0_rgba(0,0,0,0.12)] duration-500 mt-4 mx-1 mb-10">
               <div className=" w-full">
                 <img
@@ -98,7 +98,7 @@ const Latestdeal = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-top">
+          <div >
             <div className=" px-[23px] py-[18px]  bg-[#fff] shadow-[0_0_0_0_rgba(0,0,0,0.12)] hover:shadow-[6px_13px_38px_0_rgba(0,0,0,0.12)] duration-500 mt-4 mx-1 mb-10">
               <div className=" w-full">
                 <img className="w-full" src={deal_img2} alt="deal-img" />
@@ -123,7 +123,7 @@ const Latestdeal = () => {
               </div>
             </div>
           </div>
-          <div data-aos="fade-left">
+          <div>
             <div className=" px-[23px] py-[18px]  bg-[#fff] shadow-[0_0_0_0_rgba(0,0,0,0.12)] hover:shadow-[6px_13px_38px_0_rgba(0,0,0,0.12)] duration-500 mt-4 mx-1 mb-10">
               <div className=" w-full">
                 <img className="w-full" src={deal_img3} alt="deal-img" />

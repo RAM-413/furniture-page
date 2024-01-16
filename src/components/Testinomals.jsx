@@ -72,7 +72,7 @@ const Testimonials = () => {
         },
     ]
     return (
-        <div className='mx-auto px-3 max-w-[1320px] md:pt-[30px]' data-aos="fade-in-bottom">
+        <div className='mx-auto px-3 max-w-[1320px] md:pt-[30px]'>
          <div className='flex items-center gap-[7px]'>
                 <div className="w-[95px] h-[0px] border border-black"></div>
                 <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine'>Customer Says</p>
