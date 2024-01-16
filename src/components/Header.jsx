@@ -5,9 +5,9 @@ import Common from "./Common";
 const Header = () => {
   return (
     <>
-      <div className=" h-[932px] bg-cover  bg-center bg-no-repeat bg-[url(./assets/images/header-bg.webp)] flex flex-col overflow-hidden" >
+      <div className=" sm:h-[932px] h-[700px] bg-cover  bg-center bg-no-repeat bg-[url(./assets/images/header-bg.webp)] flex flex-col overflow-hidden" >
         <Nav />
-        <div className="grow pt-[20px] sm:pt-0">
+        <div className=" pt-[20px] sm:pt-0">
           <h2 className="max-w-[908px] text-center text-white sm:text-5xl text-[30px] font-bold font-poppins mx-auto sm:pt-[120px] pt-[20px] leading-normal" data-aos="fade-in-down" data-aos-delay="2000">
             Awesome Design Best Furniture For Your Interior
           </h2>
