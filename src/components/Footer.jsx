@@ -4,7 +4,7 @@ import insta from "../assets/images/insta.svg";
 import facebbok from "../assets/images/fb.svg";
 import twitter from "../assets/images/twitter.svg";
 
-const Footer = () => {
+const   Footer = () => {
   return (
     <>
       <div className="bg-[#243040] pt-[70px] overflow-hidden">
@@ -62,7 +62,7 @@ const Footer = () => {
               <li className="pt-[12px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Shop
                 </a>
@@ -70,7 +70,7 @@ const Footer = () => {
               <li className="pt-[12px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Product
                 </a>
@@ -108,7 +108,7 @@ const Footer = () => {
               <li className="pt-[12px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Shop
                 </a>
@@ -116,7 +116,7 @@ const Footer = () => {
               <li className="pt-[12px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Product
                 </a>
@@ -146,7 +146,7 @@ const Footer = () => {
               <li className="pt-[17px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Single
                 </a>
@@ -154,7 +154,7 @@ const Footer = () => {
               <li className="pt-[12px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Aleeper Sofas
                 </a>
@@ -162,7 +162,7 @@ const Footer = () => {
               <li className="pt-[12px]">
                 <a
                   href="#"
-                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1.5 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
+                  className="text-white text-sm font-normal after:duration-300 font-roboto after:w-0 after:hover:w-full after:absolute relative after:left-[50%] after:hover:left-0 after:bottom-0 py-1 after:h-[2px] after:rounded-full after:bg-[#FFFF]"
                 >
                   Accent Chairs
                 </a>

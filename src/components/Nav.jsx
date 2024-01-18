@@ -36,8 +36,8 @@ const Nav = () => {
                 to="/"
                 onClick={show}
                 className={`${
-                  location.pathname === "/" &&
-                  "after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0  after:h-[3px] after:rounded-full after:bg-[#BD7D41] "
+          
+                  "after:duration-500 duration-300 hover:after:w-full after:w-0 after:absolute relative after:left-[50%] hover:after:left-0 after:bottom-0  after:h-[3px] after:rounded-full hover:after:bg-[#BD7D41] "
                 } text-lg font-normal text-white  font-["Roboto"]  relative py-1.5 `}
               >
                 HOME
@@ -46,8 +46,8 @@ const Nav = () => {
                 to="/About"
                 onClick={show}
                 className={`${
-                  location.pathname === "/About" &&
-                  "after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0  after:h-[3px] after:rounded-full after:bg-[#BD7D41]"
+                
+                  "after:duration-500 duration-300 hover:after:w-full after:w-0 after:absolute relative after:left-[50%] hover:after:left-0 after:bottom-0  after:h-[3px] after:rounded-full hover:after:bg-[#BD7D41]"
                 } text-lg font-normal text-white font-["Roboto"] text-nowrap relative py-1.5 `}
               >
                 ABOUT US
@@ -56,8 +56,8 @@ const Nav = () => {
                 to="/Shop"
                 onClick={show}
                 className={`${
-                  location.pathname === "/Shop" &&
-                  "after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0  after:h-[3px] after:rounded-full after:bg-[#BD7D41]"
+                
+                  "after:duration-500 duration-300 hover:after:w-full after:w-0 after:absolute relative after:left-[50%] hover:after:left-0 after:bottom-0  after:h-[3px] after:rounded-full hover:after:bg-[#BD7D41]"
                 } text-lg font-normal text-white  font-["Roboto"]  relative py-1.5 `}
               >
                 SHOP
@@ -66,8 +66,8 @@ const Nav = () => {
                 to="/Contact"
                 onClick={show}
                 className={`${
-                  location.pathname === "/Contact" &&
-                  "after:duration-500 after:w-full after:absolute relative after:left-0 after:right-0 after:bottom-0  after:h-[3px] after:rounded-full after:bg-[#BD7D41]"
+                 
+                  "after:duration-500 duration-300 hover:after:w-full after:w-0 after:absolute relative after:left-[50%] hover:after:left-0 after:bottom-0  after:h-[3px] after:rounded-full hover:after:bg-[#BD7D41]"
                 } text-lg font-normal text-white font-["Roboto"] text-nowrap uppercase relative py-1.5 `}
               >
                 Contact Us

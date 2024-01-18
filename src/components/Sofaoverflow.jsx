@@ -6,7 +6,7 @@ import Sofaimg_2 from "../assets/images/sofa-img2.webp"
 const Sofaoverflow = () => {
   return (
     <>
-     <div className='bg-[#F7F7F8] pt-[64px] relative z-[1] overflow-hidden'>
+     <div className='bg-[#F7F7F8] pt-[64px] relative z-[1] '>
         <div className='max-w-[1320px] container px-3 mx-auto'  >
           <div className="row justify-center">
             <div className='lg:w-1/3 px-3 pt-3'>

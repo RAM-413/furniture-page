@@ -19,7 +19,7 @@ const Shppingstore = () => {
     ]
   return (
     <>
- <div className=' mx-auto container  max-w-[1320px] mt-[80px] sm:mt-[135px] px-3 overflow-hidden'>
+ <div className=' mx-auto container  max-w-[1320px] mt-[80px] sm:mt-[135px] px-3 '>
  <div className="flex items-center gap-[7px]" >
         <div className="w-[95px] h-[0px] border border-black" ></div>
             <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine' >Shopping Store</p>

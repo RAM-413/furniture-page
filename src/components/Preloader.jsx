@@ -22,16 +22,16 @@ const Preloader = () => {
           className="bg-[#010223] top-0 start-0 fixed h-full w-full flex flex-col justify-center items-center"
         >
           <div className="flex justify-center items-center flex-col text-center">
-            <div class="loader">
-              <section class="dots-container">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
+            <div className="loader">
+              <section className="dots-container">
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
               </section>
 
-              <p class="text-[40px] text-white">loading...</p>
+              <p className="text-[40px] text-white">loading...</p>
             </div>
           </div>
         </section>
