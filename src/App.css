@@ -36,7 +36,7 @@
   animation: pulse 1.5s infinite ease-in-out;
 }
 
-.dot:last-child {
+.dot:last-child   {
   margin-right: 0;
 }
 

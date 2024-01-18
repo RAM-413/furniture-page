@@ -59,13 +59,13 @@ const Latestdeal = () => {
   return (
     <div>
       <div className="max-w-[1320px]  px-3 mx-auto py-[50px] ">
-        <div className="flex flex-col md:flex-row items-center  pt-[30px]  gap-2" >
+        <div className="flex flex-row items-center  pt-[30px]  gap-2" >
           <span className="w-[95px] h-[1px] bg-black"></span>
           <p className="text-xl font-ff-pop font-normal not-italic leading-normal text-[#BD7D41]">
             Shopping Store
           </p>
         </div>
-        <p className="910:max-w-[426px]  910:text-start font-bold font-ff-pop leading-normal text-[30px] md:text-[35px] text-[#243040] not-italic md:pt-[19px] md:pb-[33px]">
+        <p className="font-bold font-ff-pop leading-normal text-[30px] md:text-[35px] text-[#243040] not-italic md:pt-[19px] md:pb-[33px]">
           Latest Deal{" "}
         </p>
         <Slider {...settings}>
