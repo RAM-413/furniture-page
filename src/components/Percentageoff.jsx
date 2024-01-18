@@ -5,7 +5,7 @@ const Percentageoff = () => {
   return (
     <>
       <div>
-        <div className=" mx-auto  max-w-[1320px] py-[50px] px-3 pt-[70px] overflow-hidden">
+        <div className=" mx-auto  max-w-[1320px] py-[50px] px-3 pt-[70px] ">
           <div className="row">
             <div className=" w-full md:w-1/2  px-3" >
               <div className="bg-[url(./assets/images/percentage-off1.webp)]   bg-center bg-no-repeat bg-cover hover:shadow-xl duration-500">
