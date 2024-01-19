@@ -6,9 +6,9 @@ import Shppingstore from '../components/Shppingstore'
 const Shop = () => {
   return (
     <>
-    <Shppingstore />
-      <Sofaoverflow />
-      <Latestdeal />
+      <Shppingstore />
+        <Sofaoverflow />
+        <Latestdeal />
     </>
   )
 }

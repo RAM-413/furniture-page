@@ -76,7 +76,7 @@ const Nav = () => {
               </div>
               <Cart />
             </div>
-            <label className="lg:hidden sm:pl-7 pl-3" onClick={show}>
+            <label className="lg:hidden sm:ml-7 ml-3" onClick={show}>
               {nav ? (
                 <div className="relative z-40">
                   <span className=" flex w-6 h-1 bg-white duration-300 rounded-2xl rotate-45 mb-1"></span>

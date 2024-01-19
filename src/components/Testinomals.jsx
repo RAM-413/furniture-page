@@ -70,6 +70,96 @@ const Testimonials = () => {
             Profession: "Teacher",
             bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
         },
+        {
+            img: LastSlider3,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider4,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider5,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider6,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider7,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider1,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider2,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider3,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider4,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider2,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider5,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider6,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider7,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider1,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
+        {
+            img: LastSlider2,
+            name: "Treepi Shoty",
+            Profession: "Teacher",
+            bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat nunc in leo vestibulum, at congue erat accumsan. Suspendisse potenti. Suspendisse vitae vestibulum sapien."
+        },
     ]
     return (
         <div className='mx-auto px-3 max-w-[1320px] md:pt-[30px]'>
@@ -81,7 +171,7 @@ const Testimonials = () => {
             <h2 className='text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] mt-3 leading-normal'>Testimonial</h2>
             <div className='mt-[51px] mb-12 sm:mb-16 md:mb-20 lg:mb-[109px]'>
                 <div>
-                    <Swiper  spaceBetween={55} breakpoints={{ 450: { slidesPerView: 3, }, 700: { slidesPerView: 5, }, 1024: { slidesPerView: 7, }, }} centeredSlides={false} slidesPerView={1} thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }} modules={[Controller, Thumbs]} className="mySwiper2 ">
+                    <Swiper  spaceBetween={15} breakpoints={{ 450: { slidesPerView: 3, }, 700: { slidesPerView: 5, }, 1024: { slidesPerView: 7, }, }} centeredSlides={false} slidesPerView={1} thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }} modules={[Controller, Thumbs]} className="mySwiper2 ">
                         {
                             TestimonialData.map((items, index) => (
                                 <SwiperSlide key={index}>

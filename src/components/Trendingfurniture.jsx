@@ -82,7 +82,7 @@ const Trendingfurniture = () => {
       {
         breakpoint: 1500,
         settings: {
-          slidesToShow: 2.75,
+          slidesToShow: 2.75      ,
           slidesToScroll: 1,
           infinite: true,
         },
