@@ -63,11 +63,11 @@ const Shppingstore = () => {
             </div>
             {isModalOpen && (
                 <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-20 " onClick={closeModal}>
-                    <div className="bg-white px-20 py-10 rounded flex justify-center items-center flex-col ">
-                        <img className="h-[50px] w-[50px]" src={gif} alt="fdbgmhj " />
-                        <p className="text-gray-800 text-[30px] font-roboto  italic">Added To Cart </p>
+                    <div className="bg-white sm:px-20 sm:py-10 px-8 py-5 rounded flex justify-center items-center flex-col ">
+                        <img className="sm:h-[50px] sm:w-[50px] w-[25px] h-[25px]" src={gif} alt="fdbgmhj " />
+                        <p className="text-gray-800 sm:text-[30px] text-[22px] font-roboto  italic">Added To Cart </p>
                         <button
-                            className="mt-5  bg-red-500 hover:bg-red-700 text-white text-[24px] font-bold py-5 px-6 rounded "
+                            className="mt-5  bg-red-500 hover:bg-red-700 text-white  text-[18px] sm:text-[24px] font-bold sm:py-5 sm:px-6 py-3 px-4 rounded "
                             onClick={closeModal}
                         >
                             Add To Card

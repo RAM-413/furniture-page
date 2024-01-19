@@ -22,10 +22,10 @@ const Ourstory = () => {
                 </h6>
               </div>
 
-              <h2 className="sm:text-[35px] text-[27px] font-poppins font-bold text-[#243040] max-w-[436px] pt-[19px]">
+              <h2 className="sm:text-[35px] text-[27px] font-poppins font-bold text-[#243040] lg:max-w-[436px] pt-[19px]">
                 We create the product you tell us you wish existed.{" "}
               </h2>
-              <p className="sm:text-[18px] text-[16px] font-normal font-poppins text-[rgba(0,0,0,0.70)] max-w-[596px] pt-[19px] pb-[34px]">
+              <p className="sm:text-[18px] text-[16px] font-normal font-poppins text-[rgba(0,0,0,0.70)] lg:max-w-[596px] pt-[19px] pb-[34px]">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                 faucibus, urna at pulvinar porta, augue lorem ullamcorper orci,
                 non rhoncus nisi neque sit amet nibh. Phasellus consectetur

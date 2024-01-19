@@ -165,16 +165,16 @@ const Testimonials = () => {
         <div className='mx-auto px-3 max-w-[1320px] md:pt-[30px]'>
          <div className='flex items-center gap-[7px]'>
                 <div className="w-[95px] h-[0px] border border-black"></div>
-                <p className='text-[#BD7D41] text-lg sm:text-xl font-Poppins font-normal headingLine'>Customer Says</p>
+                <p className='text-[#BD7D41] text-lg sm:text-xl font-poppins font-normal headingLine'>Customer Says</p>
               </div>
           
-            <h2 className='text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-Poppins font-bold max-w-[436px] mt-3 leading-normal'>Testimonial</h2>
-            <div className='mt-[51px] mb-12 sm:mb-16 md:mb-20 lg:mb-[109px]'>
+            <h2 className='text-[#243040] text-2xl sm:text-3xl lg:text-[35px] font-poppins font-bold max-w-[436px] mt-3 leading-normal'>Testimonial</h2>
+            <div className='mt-[51px] mb-12 sm:mb-16 md:mb-20 lg:mb-[109px] '>
                 <div>
                     <Swiper  spaceBetween={15} breakpoints={{ 450: { slidesPerView: 3, }, 700: { slidesPerView: 5, }, 1024: { slidesPerView: 7, }, }} centeredSlides={false} slidesPerView={1} thumbs={{ swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null }} modules={[Controller, Thumbs]} className="mySwiper2 ">
                         {
                             TestimonialData.map((items, index) => (
-                                <SwiperSlide key={index}>
+                                <SwiperSlide key={index}  className=' flex items-center justify-center'>
                                     <img className='sm:w-full w-1/2' src={items.img} alt="img" />
                                 </SwiperSlide>
                             ))
@@ -186,9 +186,9 @@ const Testimonials = () => {
                         {
                             TestimonialData.map((items, index) => (
                                 <SwiperSlide key={index}>
-                                    <h2 className='text-black text-lg font-Poppins font-semibold pt-2 leading-normal text-center'>{items.name}</h2>
-                                    <p className='text-[#4D4D4D] text-xs font-Poppins pt-1 font-light leading-normal text-center'>{items.Profession}</p>
-                                    <p className='text-black font-Poppins font-light leading-normal text-sm mt-3 max-w-[350px] mx-auto text-center'>{items.bio}</p>
+                                    <h2 className='text-black text-lg font-poppins font-semibold pt-2 leading-normal text-center'>{items.name}</h2>
+                                    <p className='text-[#4D4D4D] text-xs font-poppins pt-1 font-light leading-normal text-center'>{items.Profession}</p>
+                                    <p className='text-black font-poppins font-light leading-normal text-sm mt-3 max-w-[350px] mx-auto text-center'>{items.bio}</p>
                                 </SwiperSlide>
                             ))
                         }
@@ -197,6 +197,5 @@ const Testimonials = () => {
             </div>
         </div>
     )
-}
-
+};
 export default Testimonials

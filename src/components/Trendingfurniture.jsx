@@ -76,13 +76,13 @@ const Trendingfurniture = () => {
     speed: 500,
     arrows: false,
     centerPadding: "60px",
-    slidesToShow: 3.08,
+    slidesToShow: 2.95,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1500,
         settings: {
-          slidesToShow: 2.75      ,
+          slidesToShow: 2.60,
           slidesToScroll: 1,
           infinite: true,
         },
@@ -90,40 +90,47 @@ const Trendingfurniture = () => {
       {
         breakpoint: 1350,
         settings: {
-          slidesToShow: 2.08,
+          slidesToShow: 2.05,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1023,
+        settings: {
+          slidesToShow: 3.08,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 950,
         settings: {
-          slidesToShow: 2.8,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 890,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 2.75,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1.95,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 580,
+        breakpoint: 590,
         settings: {
-          slidesToShow: 1.7,
+          slidesToShow: 1.5,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 420,
+        breakpoint: 450,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
